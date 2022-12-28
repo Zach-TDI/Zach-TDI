@@ -253,7 +253,6 @@ class Ui_HotWire(object):
 
 ##################################################################
     def btn(self, btn):
-
         if btn < 6:
             msg = str(btn)
             self.HigtDisp.setProperty("value", float(btn)) and self.HigtDisp.setStyleSheet("color: rgb(255, 255, 255);\n"
@@ -268,7 +267,6 @@ class Ui_HotWire(object):
         print('i made it here')
 
 ##################################################################
-
     def start(self):
         msg = "6"
         self.HigtDisp.setStyleSheet("color: rgb(0, 255, 0);\n"
