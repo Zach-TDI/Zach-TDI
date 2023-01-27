@@ -21,7 +21,6 @@ UDP_IP2 = "192.168.100.50"  # IP address for client(Clear Core)
 address2 = (UDP_IP2, UDP_PORT)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # Internet, UDP
-
 ##################################################################
 # NEED to Set the ip ADDRESS IN ORDER TO BIND
 # sock.bind(address)
